@@ -1,0 +1,58 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../static/background.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the login, register, and dashboard */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* Input fields and buttons */
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style submit buttons */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Logout button style */
+.logout-btn {
+    background: #dc3545;
+}
+
+.logout-btn:hover {
+    background: #c82333;
+}
+
