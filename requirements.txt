@@ -3,6 +3,8 @@ Flask-SQLAlchemy==2.5.1
 Flask-Login==0.6.1
 cryptography==38.0.4
 requests==2.26.0
+Flask==2.2.2
+Werkzeug==2.2.2
 
 asttokens==2.4.1
 colorama==0.4.6
